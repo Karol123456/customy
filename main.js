@@ -1,4 +1,5 @@
-let datapis = document.getElementById('datapis');let countDownDate = new Date("Nov 18, 2022 20:30:00").getTime();
+let datapis = document.getElementById('datapis');
+let countDownDate = new Date("Nov 18, 2022 00:16:50").getTime();
 
 let aha = setInterval(function() {
 
@@ -22,7 +23,7 @@ let aha = setInterval(function() {
   if (distance < 0) {
     
     countDownDate = new Date("Nov 25, 2022 20:30:00").getTime();
-    datapis.innerHTML("piątek 25.11.2022")
+    datapis.innerHTML= "piątek 25.11.2022";
     return
   }
 }, 1000);
