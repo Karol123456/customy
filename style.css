@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.kolor1{
+   
+    animation-name: color;
+    animation-duration: 2.6s;
+    animation-iteration-count: infinite;
+   font-size: 50px;
+   font-weight: 600;
+}
+
+.kolor2{
+   
+    animation-name: color2;
+    animation-duration: 2.6s;
+    animation-iteration-count: infinite;
+   font-size: 50px;
+   font-weight: 600;
+}
+
+.kolor3{
+   
+    animation-name: color3;
+    animation-duration: 2.6s;
+    animation-iteration-count: infinite;
+   font-size: 50px;
+   margin-left: 1%;
+   font-weight: 600;
+}
+
+.kolor4{
+   
+    animation-name: color4;
+    animation-duration: 2.6s;
+    animation-iteration-count: infinite;
+   font-size: 50px;
+   font-weight: 600;
+}
+
+.kolor5{
+   
+    animation-name: color5;
+    animation-duration: 2.6s;
+    animation-iteration-count: infinite;
+   font-size: 50px;
+   font-weight: 600;
+}
+
+@keyframes color {
+    0% {
+        color: rgb(53, 255, 2);
+    }
+    25%{
+        color: #5900ff;
+    }
+    50% {
+      color: #4285f4;
+    }
+    100% {
+      color: rgb(53, 255, 2);
+    }
+  }
+  @keyframes color2 {
+    0% {
+        color: rgb(255, 0, 0);
+    }
+    25%{
+        color: #4285f4;
+    }
+    50% {
+      color: #5900ff;
+    }
+    100% {
+      color: rgb(255, 0, 0);
+    }
+  }
+  @keyframes color3 {
+    0% {
+        color: rgb(0, 238, 255);
+    }
+    25%{
+        color: yellow;
+    }
+    50% {
+      color: #00ff15;
+    }
+    100% {
+      color: rgb(0, 238, 255);
+    }
+  }
+  @keyframes color4 {
+    0% {
+        color: rgb(65, 1, 65);
+    }
+    25%{
+        color: #00ff15;
+    }
+    50% {
+      color: yellow;
+    }
+    100% {
+      color: rgb(65, 1, 65);
+    }
+  }
+  @keyframes color5 {
+    0% {
+        color: rgb(245, 3, 3);
+    }
+    25%{
+        color: rgb(247, 0, 255);
+    }
+    50% {
+      color: #4285f4;
+    }
+    100% {
+      color: rgb(245, 3, 3);
+    }
+  }
+
+  .head{
+    width: 210px;
+    height: 210px;
+  }
+
+  .napis{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .prawdopodobna{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+  }
+  .xdding{
+    width: 225px;
+    margin-left: 10px;
+  }
+
+  #zegar{
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    color: gray;
+  }
+
+  .datapis{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    font-size: 18px;
+  }
+
+  .jasperJeden{
+    width: 230px;
+  }
+
+  
