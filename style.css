@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+  font-family: 'Roboto', sans-serif;
+}
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -145,12 +148,14 @@ body{
   }
 
   #zegar{
-    font-size: 35px;
+    font-size: 45px;
     text-align: center;
     justify-content: center;
     align-items: center;
     margin-right: 5%;
     color: gray;
+
+font-family: 'Roboto', sans-serif;
   }
 
   .datapis{
@@ -165,4 +170,32 @@ body{
     width: 230px;
   }
 
-  
+  .troll{
+   width: 150px;
+   margin-left: 60%;
+   overflow: hidden;
+  }
+
+
+  .jasperglowa{
+    width: 350px;
+    margin-left: 10%;
+  }
+
+  .jaspertaniec{
+    width: 200px;
+    margin-left: 25%;
+  }
+
+  .boder{
+    border-left: 3px rgb(0, 255, 0) solid;
+
+  }
+
+  .mociek{
+    width: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 20%;
+  }
