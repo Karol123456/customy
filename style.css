@@ -408,9 +408,9 @@ font-family: 'Roboto', sans-serif;
 }
                              
 .nerd{
-  width: 150px;
+  width: 120px;
 
-margin-right: 10%;
+margin-right: 6%;
 }
 
 
@@ -430,4 +430,18 @@ margin-right: 10%;
   display: grid;
  grid-template-columns: auto auto auto;
  margin-left: 13%;
+}
+
+.taniec{
+  width: 120px;
+  margin-bottom: 1%;
+}
+
+
+.jasperDwa{
+  margin-bottom: 20%;
+}
+
+.dni{
+  margin-top: 15%;
 }
