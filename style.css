@@ -254,7 +254,7 @@ font-family: 'Roboto', sans-serif;
     text-decoration: none;
     width: 210px;
            
-    color: gray;
+    
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -270,22 +270,22 @@ font-family: 'Roboto', sans-serif;
   
 
   .discord{
-    color: gray;
+    color: rgb(0, 89, 255);
     margin-left: 6px;
   }
   .instagram {
     
-    color: gray;
+    color: orange;
   }
   
   .youtube {
     margin-left: 3px;
-    color: gray;
+    color: red;
   }
   
   .tiktok {
     
-    color: gray;
+    color: black;
   }
   
   
