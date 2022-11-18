@@ -79,6 +79,11 @@ $(document).ready(function () {
       $('#jasperjeden').fadeIn(500);
   }, 3000);
 });
+$(document).ready(function () {
+  setTimeout(function(){
+      $('#szef').fadeIn(500);
+  }, 3000);
+});
 
 function playaudio() {
    audio.play();
