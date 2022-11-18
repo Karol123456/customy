@@ -33,6 +33,52 @@ const audio = document.getElementById("audio");
 
 
 
+let obraz2 = document.getAnimations('mocieek');
+
+$(document).ready(function () {
+  setTimeout(function(){
+      $('#czwartyjasper').fadeIn(500);
+  }, 3000);
+});
+
+$(document).ready(function () {
+  setTimeout(function(){
+      $('#mocieek').fadeIn(500);
+  }, 3000);
+});
+
+$(document).ready(function () {
+  setTimeout(function(){
+      $('#jaspertaniec').fadeIn(500);
+  }, 3000);
+});
+
+
+$(document).ready(function () {
+  setTimeout(function(){
+      $('#gagri').fadeIn(500);
+  }, 3000);
+});
+$(document).ready(function () {
+  setTimeout(function(){
+      $('#troll').fadeIn(500);
+  }, 3000);
+});
+$(document).ready(function () {
+  setTimeout(function(){
+      $('#xdding').fadeIn(500);
+  }, 3000);
+});
+$(document).ready(function () {
+  setTimeout(function(){
+      $('#jasperDwa').fadeIn(500);
+  }, 3000);
+});
+$(document).ready(function () {
+  setTimeout(function(){
+      $('#jasperjeden').fadeIn(500);
+  }, 3000);
+});
 
 function playaudio() {
    audio.play();

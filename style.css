@@ -128,6 +128,7 @@ body{
   .head{
     width: 210px;
     height: 210px;
+  
   }
 
   .napis{
@@ -142,9 +143,10 @@ body{
     text-align: center;
     font-size: 25px;
   }
-  .xdding{
+  #xdding{
     width: 175px;
     margin-left: 17px;
+    display: none;
   }
 
   #zegar{
@@ -166,15 +168,17 @@ font-family: 'Roboto', sans-serif;
     margin-right: 6%;
   }
 
-  .jasperJeden{
-    width: 230px;
+  #jasperjeden{
+    width: 210px;
+    display: none;
   }
 
-  .troll{
+  #troll{
    width: 150px;
    margin-left: 70%;
    overflow: hidden;
    margin-bottom: 40%;
+   display: none;
   }
 
 
@@ -183,9 +187,10 @@ font-family: 'Roboto', sans-serif;
     margin-left: 10%;
   }
 
-  .jaspertaniec{
+  #jaspertaniec{
     width: 200px;
     margin-left: 25%;
+    display: none;
   }
 
   .boder{
@@ -198,12 +203,9 @@ font-family: 'Roboto', sans-serif;
 
 }
 
-  .mociek{
+  #mocieek{
     width: 100px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin-left: 20%;
+    display: none;
   }
 
   input{
@@ -235,8 +237,10 @@ font-family: 'Roboto', sans-serif;
     margin-left: 5%;
   }
 
-.czwartyjasper{
+#czwartyjasper{
   width: 200px;
+  display: none;
+  
 }
 
 
@@ -360,9 +364,9 @@ font-family: 'Roboto', sans-serif;
       margin-left: 5%;
       margin-top: 7%;
     }
-    .gagri{
+    #gagri{
       display: none;
-    
+        width: 140px;
     }
     .kolor3{
    
@@ -461,8 +465,9 @@ margin-right: 6%;
 }
 
 
-.jasperDwa{
+#jasperDwa{
   margin-bottom: 20%;
+  display: none;
 }
 
 .dni{
@@ -477,9 +482,10 @@ margin-left: 50%;
 
 
 
-.gagri{
+#gagri{
   width: 151px;
  position: absolute;
 margin-left: 85%;
 top: 40%;
+display: none;
 }
