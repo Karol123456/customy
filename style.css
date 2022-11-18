@@ -384,6 +384,14 @@ font-family: 'Roboto', sans-serif;
    .icon-barr a {
   display: none;
    }
+   #gagri{
+    display: none;
+      visibility: none;
+   width: 0px;
+   }
+   .wanze{
+    visibility: hidden;
+   }
 }
                
 
@@ -421,6 +429,10 @@ font-family: 'Roboto', sans-serif;
       
       .icon-barr a {
      display: none;
+      }
+
+      #gagri{
+        display: none;
       }
 }
                              
