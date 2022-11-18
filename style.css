@@ -284,7 +284,7 @@ font-family: 'Roboto', sans-serif;
   }
   
   .tiktok {
-    margin-left: 5px;
+    margin-left: 4px;
     color: gray;
   }
   
@@ -317,3 +317,58 @@ font-family: 'Roboto', sans-serif;
 {
     text-decoration: none;
 }
+
+@media screen and (min-width: 320px) and (max-width : 480px) {
+    .prawdopodobna{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10%;
+  }
+     .jaspertaniec{
+      width: 230px;
+     }           
+     .mociek{
+      width: 180px;
+      margin-right: 20%;
+     }
+     .czwartyjasper{
+      width: 230px;
+     }
+}
+                             
+@media screen and (min-width: 481px) and (max-width : 768px) {
+    .prawdopodobna{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10%;
+  }
+      .jaspertaniec{
+        width: 230px;
+      }          
+      .mociek{
+        width: 230px;
+        margin-right: 3%;
+      }
+      .czwartyjasper{
+        width: 230px;
+      }
+}
+                             
+@media screen and (min-width: 769px) and (max-width : 1024px) {
+    
+                
+}
+                             
+@media screen and (min-width: 1025px) and (max-width : 1200px) {
+    
+                
+}
+                             
+
+
+                             
+                                   
