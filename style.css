@@ -195,7 +195,7 @@ font-family: 'Roboto', sans-serif;
 
 .catjam{
   overflow: hidden;
-  margin-right: 20%;
+
 }
 
   .mociek{
@@ -356,6 +356,15 @@ font-family: 'Roboto', sans-serif;
      
       z-index: 10;
     }
+    .przycisk2{
+      border: 1px solid gray;
+      width: 60px;
+      color: gray;
+      height: 35px;
+      background-color: white;
+      margin-left: 5%;
+      margin-top: 7%;
+    }
 }
                              
 @media screen and (min-width: 481px) and (max-width : 768px) {
@@ -414,4 +423,10 @@ margin-right: 10%;
   background-color: red;
   color: white;
   transition: 1s;
+}
+
+.grid3{
+  display: grid;
+ grid-template-columns: auto auto auto;
+ margin-left: 10%;
 }
