@@ -425,7 +425,7 @@ font-family: 'Roboto', sans-serif;
                 
 }
                              
-@media screen and (min-width: 1025px) and (max-width : 1200px) {
+@media screen and (min-width: 1024px) and (max-width : 1200px) {
     
                 
 }
@@ -469,10 +469,12 @@ margin-right: 6%;
   margin-top: 15%;
 }
 
+
 .dawidzegar{
   width: 280px;
 margin-left: 50%;
 }
+
 
 
 .gagri{
