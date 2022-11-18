@@ -29,12 +29,15 @@ let aha = setInterval(function() {
 }, 1000);
 
 
+const audio = document.getElementById("audio");
 
 
 
 
-function play() {
-    var audio = document.getElementById("audio");
-    audio.play();
+function playaudio() {
+   audio.play();
     
+  }
+  function pauseaudio(){
+    audio.pause();
   }

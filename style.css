@@ -226,6 +226,15 @@ font-family: 'Roboto', sans-serif;
     background-color: white;
   }
 
+  .przycisk2{
+    border: 1px solid gray;
+    width: 60px;
+    color: gray;
+    height: 35px;
+    background-color: white;
+    margin-left: 5%;
+  }
+
 .czwartyjasper{
   width: 200px;
 }
@@ -398,6 +407,11 @@ margin-right: 10%;
                              
 .przycisk:hover{
   background-color: gray;
+  color: white;
+  transition: 1s;
+}
+.przycisk2:hover{
+  background-color: red;
   color: white;
   transition: 1s;
 }
