@@ -328,14 +328,25 @@ font-family: 'Roboto', sans-serif;
   }
      .jaspertaniec{
       width: 230px;
+      margin-right: 100%;
+      margin-top: 5%;
      }           
      .mociek{
       width: 180px;
       margin-right: 20%;
+      margin-top: 5%;
      }
      .czwartyjasper{
       width: 230px;
+      margin-top:  7%;
      }
+
+     .icon-barr {
+      
+      top: 50%;
+     
+      z-index: 10;
+    }
 }
                              
 @media screen and (min-width: 481px) and (max-width : 768px) {
@@ -348,6 +359,8 @@ font-family: 'Roboto', sans-serif;
   }
       .jaspertaniec{
         width: 230px;
+        margin-right: 35%;
+        
       }          
       .mociek{
         width: 230px;
@@ -355,6 +368,13 @@ font-family: 'Roboto', sans-serif;
       }
       .czwartyjasper{
         width: 230px;
+      }
+
+      .icon-barr {
+        
+        top: 50%;
+      
+        z-index: 10;
       }
 }
                              
@@ -368,7 +388,15 @@ font-family: 'Roboto', sans-serif;
                 
 }
                              
+.nerd{
+  width: 150px;
 
+margin-right: 10%;
+}
 
                              
-                                   
+.przycisk:hover{
+  background-color: gray;
+  color: white;
+  transition: 1s;
+}
