@@ -143,7 +143,7 @@ body{
     font-size: 25px;
   }
   .xdding{
-    width: 225px;
+    width: 175px;
     margin-left: 17px;
   }
 
@@ -162,8 +162,8 @@ font-family: 'Roboto', sans-serif;
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-right: 5%;
     font-size: 18px;
+    margin-right: 6%;
   }
 
   .jasperJeden{
@@ -350,12 +350,7 @@ font-family: 'Roboto', sans-serif;
       margin-top:  7%;
      }
 
-     .icon-barr {
-      
-      top: 50%;
      
-      z-index: 10;
-    }
     .przycisk2{
       border: 1px solid gray;
       width: 60px;
@@ -365,6 +360,26 @@ font-family: 'Roboto', sans-serif;
       margin-left: 5%;
       margin-top: 7%;
     }
+    .gagri{
+      display: none;
+    
+    }
+    .kolor3{
+   
+      animation-name: color3;
+      animation-duration: 2.6s;
+      animation-iteration-count: infinite;
+     font-size: 50px;
+     margin-left: 5%;
+     font-weight: 600;
+  }
+  .icon-barr {
+    display: none;
+   }
+   
+   .icon-barr a {
+  display: none;
+   }
 }
                
 
@@ -394,6 +409,14 @@ font-family: 'Roboto', sans-serif;
         top: 50%;
       
         z-index: 10;
+      }
+
+      .icon-barr {
+       display: none;
+      }
+      
+      .icon-barr a {
+     display: none;
       }
 }
                              
@@ -444,4 +467,17 @@ margin-right: 6%;
 
 .dni{
   margin-top: 15%;
+}
+
+.dawidzegar{
+  width: 280px;
+margin-left: 50%;
+}
+
+
+.gagri{
+  width: 150px;
+ position: absolute;
+margin-left: 85%;
+top: 40%;
 }
