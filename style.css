@@ -261,13 +261,13 @@ font-family: 'Roboto', sans-serif;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     z-index: 10;
+    background-color: red;
+   width: 65px;
   }
   
   .icon-barr a {
     text-decoration: none;
-    width: 210px;
-           
-    
+  
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -283,29 +283,37 @@ font-family: 'Roboto', sans-serif;
   
 
   .discord{
-    color: rgb(0, 89, 255);
-    margin-left: 6px;
+    color:white;
+
+    background-color: red;
+    width: 217px;
   }
   .instagram {
-    
-    color: orange;
+
+ color:white;
+    background-color: red;
+    width: 210px;
   }
   
   .youtube {
     margin-left: 3px;
-    color: red;
+    color:white;
+    background-color: red;
+    width: 210px;
   }
   
   .tiktok {
-    
-    color: black;
+    margin-bottom: 5px;
+    color:white;
+    background-color: red;
+    width: 210px;
   }
   
   
   .icon-barr a i {
-    padding-left: 20px;
+    padding-left: 70px;
     font-size: 30px !important;
-    animation: letszoom 3s linear alternate-reverse infinite;
+    animation:  linear alternate-reverse infinite;
   }
   
   @keyframes letszoom {
@@ -323,7 +331,7 @@ font-family: 'Roboto', sans-serif;
     transform: translateX(0);
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
-    color: gray;
+    color: rgb(255, 255, 255);
   }
 
   a:hover, a:visited, a:link, a:active
@@ -468,7 +476,7 @@ margin-right: 6%;
 .grid3{
   display: grid;
  grid-template-columns: auto auto auto;
- margin-left: 13%;
+ margin-left: 17%;
 }
 
 .taniec{
@@ -504,4 +512,5 @@ display: none;
 
 #szef{
   display: none;
+  margin-left: 3%;
 }
