@@ -66,6 +66,11 @@ $(document).ready(function () {
 });
 $(document).ready(function () {
   setTimeout(function(){
+      $('#witam').hide(500);
+  }, 3000);
+});
+$(document).ready(function () {
+  setTimeout(function(){
       $('#xdding').fadeIn(500);
   }, 3000);
 });
@@ -84,7 +89,11 @@ $(document).ready(function () {
       $('#szef').fadeIn(500);
   }, 3000);
 });
-
+$(document).ready(function () {
+  setTimeout(function(){
+      $('#aaaa').fadeIn(500);
+  }, 3000);
+});
 function playaudio() {
    audio.play();
     
