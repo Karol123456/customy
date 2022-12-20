@@ -1,5 +1,5 @@
 let datapis = document.getElementById('datapis');
-let countDownDate = new Date("Dec 16, 2022 20:30:00").getTime();
+let countDownDate = new Date("Dec 23, 2022 20:30:00").getTime();
 
 let aha = setInterval(function() {
 
