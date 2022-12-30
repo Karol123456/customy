@@ -1,5 +1,5 @@
 let datapis = document.getElementById('datapis');
-let countDownDate = new Date("Dec 23, 2022 20:30:00").getTime();
+let countDownDate = new Date("Jan 6, 2023 20:30:00").getTime();
 
 let aha = setInterval(function() {
 
@@ -22,8 +22,8 @@ let aha = setInterval(function() {
 
   if (distance < 0) {
     
-    countDownDate = new Date("Dec 30, 2022 20:30:00").getTime();
-    datapis.innerHTML= "piątek 30.12.2022";
+    countDownDate = new Date("Jan 13, 2023 20:30:00").getTime();
+    datapis.innerHTML= "Styczeń 13.01.2023";
     return
   }
 }, 1000);
